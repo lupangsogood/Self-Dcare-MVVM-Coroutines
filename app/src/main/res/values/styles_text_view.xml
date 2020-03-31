@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextLight">
+        <item name="android:fontFamily">@font/true_light</item>
+    </style>
+
+    <!--    <style name="TextRegular">-->
+    <!--        <item name="android:fontFamily">@font/true_medium</item>-->
+    <!--    </style>-->
+
+    <!-- Default is Medium -->
+    <style name="TextMedium">
+        <item name="android:fontFamily">@font/true_medium</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/true_bold</item>
+    </style>
+
+    <style name="TextBoldSpecial">
+        <item name="android:fontFamily">@font/true_bold_special</item>
+    </style>
+
+
+    <!-- Typography Scale H1 in Design 30px -->
+    <style name="TextHeadLine4" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_headline_4</item>
+    </style>
+
+    <!-- Typography Scale H2 in Design 25px-->
+    <style name="TextHeadLine5" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_headline_5</item>
+    </style>
+
+    <!-- Typography Scale H3 in Design 23px-->
+    <style name="TextHeadLine6" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_headline_6</item>
+    </style>
+
+    <!-- Typography Scale Sublime in Design 20px-->
+    <style name="TextTitle" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+
+    <!-- Typography Scale Paragraph in Design 15px-->
+    <style name="TextBody1" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_body_1</item>
+    </style>
+
+    <!-- Typography Scale Paragraph in Design 15px-->
+    <style name="TextBody2" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_body_2</item>
+    </style>
+
+    <!-- Typography Scale Link in Design 12px-->
+    <style name="TextCaption" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_caption</item>
+    </style>
+
+    <!--Typography Scale Fingerprint in Design 12px-->
+    <style name="TextOverLine" parent="TextMedium">
+        <item name="android:textSize">@dimen/text_over_line</item>
+    </style>
+
+    <style name="TextHeadLine4.Primary" parent="TextHeadLine4">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextHeadLine5.Primary" parent="TextHeadLine5">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextHeadLine6.Primary" parent="TextHeadLine6">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextTitle.Primary" parent="TextTitle">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextBody1.Primary" parent="TextBody1">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextBody2.Primary" parent="TextBody1">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextCaption.Primary" parent="TextCaption">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextOverLine.Primary" parent="TextOverLine">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+
+    <style name="TextHeadLine4.Secondary" parent="TextHeadLine4">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextHeadLine5.Secondary" parent="TextHeadLine5">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextHeadLine6.Secondary" parent="TextHeadLine6">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextTitle.Secondary" parent="TextTitle">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextBody1.Secondary" parent="TextBody1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextBody2.Secondary" parent="TextBody1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextCaption.Secondary" parent="TextCaption">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextOverLine.Secondary" parent="TextOverLine">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+
+    <style name="TextHeadLine4.Thirdly" parent="TextHeadLine4">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextHeadLine5.Thirdly" parent="TextHeadLine5">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextHeadLine6.Thirdly" parent="TextHeadLine6">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextTitle.Thirdly" parent="TextTitle">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextBody1.Thirdly" parent="TextBody1">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextBody2.Thirdly" parent="TextBody1">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextCaption.Thirdly" parent="TextCaption">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextOverLine.Thirdly" parent="TextOverLine">
+        <item name="android:textColor">@color/text_thirdly</item>
+    </style>
+
+    <style name="TextHeadLine4.Disable" parent="TextHeadLine4">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextHeadLine5.Disable" parent="TextHeadLine5">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextHeadLine6.Disable" parent="TextHeadLine6">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextTitle.Disable" parent="TextTitle">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextBody1.Disable" parent="TextBody1">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextBody2.Disable" parent="TextBody1">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextCaption.Disable" parent="TextCaption">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextOverLine.Disable" parent="TextOverLine">
+        <item name="android:textColor">@color/text_disable</item>
+    </style>
+
+    <style name="TextHeadLine4.White" parent="TextHeadLine4">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextHeadLine5.White" parent="TextHeadLine5">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextHeadLine6.White" parent="TextHeadLine6">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextTitle.White" parent="TextTitle">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextBody1.White" parent="TextBody1">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextBody2.White" parent="TextBody1">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextCaption.White" parent="TextCaption">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextOverLine.White" parent="TextOverLine">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextBody1.Accent" parent="TextBody1">
+        <item name="android:textColor">@color/text_accent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_screen"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.SplashScreen">
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/space_32dp"
+        android:paddingTop="@dimen/space_56dp"
+        android:paddingEnd="@dimen/space_32dp"
+        android:paddingBottom="@dimen/space_32dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/space_24dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/im_app_logo" />
+
+        <RelativeLayout
+            android:id="@+id/welcome_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/welcome_en_label"
+                style="@style/Label.Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:maxWidth="@dimen/welcome_label_width"
+                android:text="Welcome to\nCOVID-19 POSITION TRACKING" />
+
+            <TextView
+                android:id="@+id/welcome_th_label"
+                style="@style/TextHeadLine5.White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcome_en_label"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space_32dp"
+                android:gravity="center"
+                android:maxWidth="@dimen/welcome_label_width"
+                android:text="@string/welcome_message" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/power_by_label"
+            style="@style/TextBody1.White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/power_by_name_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/space_16dp"
+            android:text="@string/power_by" />
+
+        <TextView
+            android:id="@+id/power_by_name_label"
+            style="@style/TextHeadLine5.White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/thai_digital_technology_association" />
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

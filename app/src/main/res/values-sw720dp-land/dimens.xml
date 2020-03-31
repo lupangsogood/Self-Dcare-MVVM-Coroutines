@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Image View -->
+    <dimen name="im_login_height">320dp</dimen>
+</resources>

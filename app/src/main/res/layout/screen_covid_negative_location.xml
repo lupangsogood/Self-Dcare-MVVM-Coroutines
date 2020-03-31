@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_toolbar"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include layout="@layout/toolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appBarLayout"
+            android:padding="@dimen/space_32dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/locationTitle"
+                style="@style/TextView.Title.Gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/get_location_title"
+                android:textSize="@dimen/text_headline_4" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/locationDesc"
+                style="@style/TextView.Desc.Gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/locationTitle"
+                android:layout_alignParentStart="true"
+                android:text="@string/get_location_desc"
+                android:textSize="@dimen/text_headline_6" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:paddingStart="@dimen/space_24dp"
+            android:paddingEnd="@dimen/space_24dp">
+
+            <androidx.appcompat.widget.AppCompatToggleButton
+                android:id="@+id/btnAcceptGetLocation"
+                android:layout_width="32dp"
+                android:layout_height="@dimen/space_32dp"
+                android:background="@drawable/custom_radio"
+                android:gravity="center"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/TextView.Title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="start|center"
+                android:paddingStart="@dimen/space_12dp"
+                android:paddingEnd="@dimen/space_12dp"
+                android:text="@string/accecpt_get_location"
+                android:textSize="@dimen/text_title" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSafeLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/space_32dp"
+            android:layout_marginEnd="@dimen/space_32dp"
+            android:layout_marginBottom="@dimen/space_32dp"
+            android:background="@drawable/btn_gray_gradient"
+            android:fontFamily="@font/true_bold"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_headline_6" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

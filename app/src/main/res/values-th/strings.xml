@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Self D-Care</string>
+
+    <!-- A -->
+    <string name="activity_list">การเข้าร่วมกิจกรรม</string>
+    <string name="add_event_to_calendar">เพิ่มอีเวนท์ไปยังปฏิทิน</string>
+    <string name="add_event_to_calendar_completed">เพิ่มอีเวนท์ในปฏิทินเรียบร้อย</string>
+    <string name="add_event_to_calendar_failed">ไม่สามารถเพิ่มอีเวนท์ไปยังปฎิธินได้</string>
+    <string name="accecpt_get_location">ยอมรับการแชร์ตำแหน่ง (Share Location)</string>
+    <!-- B -->
+    <string name="back">ย้อนกลับ</string>
+
+    <!-- c -->
+    <string name="cancel">ยกเลิก</string>
+    <string name="cancel_update_app">คุณยกเลิกการอัปเดตเวอร์ชันใหม่</string>
+    <string name="close">ปิด</string>
+    <string name="change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="confirm_otp">ยืนยันรหัสผ่าน OTP</string>
+    <string name="confirm_otp_detail">รับรหัสจากหมายเลขที่ลงทะเบียน\n\tเบอร์โทรศัพท์ 0xx-xxx-9999</string>
+
+    <string name="change_password_info_msg">ขอแนะนำให้ใช้รหัสผ่านที่คาดเดาได้ยาก</string>
+    <string name="change_password_completed_msg">รหัสผ่านได้ถูกเปลี่ยนแล้ว</string>
+    <string name="completed_activity_info_msg">คุณเข้าร่วมกิจกรรมนี้ครบแล้ว</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="confirm_password_required">กรุณายืนยันรหัสผ่าน</string>
+    <string name="confirm_password_not_match">กรุณาระบุยืนยันรหัสผ่านและรหัสผ่านใหม่ให้ตรงกัน</string>
+    <string name="confirm_to_join_event">ยืนยันการเข้าร่วมอีเวนท์</string>
+    <string name="confirm_to_refuse_event">ยืนยันการปฏิเสธเข้าร่วมอีเวนท์</string>
+
+    <string name="onboard_covid_title">COVID 19 POSITION TRACKING\n\tภารกิจต้าน “โคดวิด-19”</string>
+    <string name="onboard_covid_desc">ยินดีต้อนรับเข้าสู่ การแจ้งข้อมูลสถานะ\n\t\tของการติดเชื้อ COVID-19\n\tเพื่อคนไทยสู้ภัย โควิด</string>
+
+    <!-- D -->
+    <string name="date">วันที่</string>
+    <string name="delete">ลบ</string>
+    <string name="done">เสร็จ</string>
+
+    <!-- E -->
+    <string name="email">อีเมล</string>
+    <string name="email_required">กรุณาระบุอีเมลผู้ใช้งาน</string>
+    <string name="email_not_valid">รูปแบบอีเมลไม่ถูกต้อง</string>
+    <string name="event_details">รายละเอียดอีเวนท์</string>
+
+    <!-- F -->
+    <string name="for_secure">เพื่อความปลอดภัยในการใช้งาน</string>
+    <string name="forgot_password_info_msg">โปรดป้อนอีเมลของคุณเพื่อขอกำหนดรหัสผ่านใหม่</string>
+
+    <!-- G -->
+    <string name="get_started">เริ่มต้นการใช้งาน</string>
+    <string name="get_location_title">ระบุตำแหน่งที่ตั้งของคุณ</string>
+    <string name="get_location_desc">เราจะบันทึกตำแหน่งที่ตั้งของคุณเพื่อแสดงบนแผนที่\nสำหรับป้องกันการเพิ่มจำนวนผู้ติดเชื้อ</string>
+
+    <!-- H -->
+
+    <!-- I -->
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="input_date_of_risk">กรุณาระบุวันที่คุณได้รับความเสี่ยง</string>
+
+    <!-- J -->
+    <string name="join">เข้าร่วม</string>
+
+    <!-- K -->
+
+    <!-- L -->
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="login_desc">ระบบจะส่ง SMS ชุดรหัสผ่านใช้ครั้งเดียวไปยังหมายเลขโทรศัพท์เคลื่อนที่ของคุณค่ะ</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="logout_confirm_msg">คุณต้องการออกจากระบบใช่หรือไม่?</string>
+
+
+    <!-- M -->
+    <string name="more_details">รายละเอียดเพิ่มเติม</string>
+    <string name="main_screen_title">สวัสดีค่ะ\nกรุณาระบุสถานะของคุณตอนนี้</string>
+
+    <!-- N -->
+    <string name="new_password">รหัสผ่านใหม่</string>
+    <string name="new_password_required">กรุณาระบุรหัสผ่านใหม่</string>
+    <string name="new_password_repeat">รหัสผ่านใหม่ต้องไม่ซ้ำกับรหัสผ่านเดิม</string>
+    <string name="no_internet_connection">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="not_join">ไม่เข้าร่วม</string>
+    <string name="not_have_any_event">คุณยังไม่มีอีเวนท์ที่ได้รับเชิญ</string>
+    <string name="not_found_calendar">ไม่พบปฏิทินในอุปกรณ์ของคุณ</string>
+
+    <!-- O -->
+    <string name="old_password">รหัสผ่านเดิม</string>
+    <string name="old_password_required">กรุณาระบุรหัสผ่านเดิม</string>
+    <string name="old_password_invalid">รหัสผ่านเดิมของคุณไม่ถูกต้อง</string>
+    <string name="ok">ตกลง</string>
+
+    <string name="on_boarding_title">COVID-19 POSITION TRACKING\nภารกิจต้าน “โควิด-19”</string>
+
+    <!-- P -->
+    <string name="password">รหัสผ่าน</string>
+    <string name="password_required">กรุณากรอกรหัสผ่าน</string>
+    <string name="pending">รอดำเนินการ</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="phone_number_hint">ระบุหมายเลขโทรศัพท์ของคุณ</string>
+
+    <string name="power_by">Power by Thai Digital Technology Association</string>
+    <string name="please_enter_correct_phone_number">กรุณาระบุหมายเลขโทรศัพท์ให้ถูกต้อง</string>
+
+    <!-- Q -->
+    <string name="qr_code">คิวอาร์โค้ด</string>
+    <string name="qr_code_expired">คิวอาร์โค้ดหมดอายุแล้ว</string>
+    <string name="qr_code_expired_info_msg">คลิกที่กิจกรรมเพื่อสร้างคิวอาร์โค้ดใหม่ในการเข้าร่วมกิจกรรม</string>
+    <string name="qr_code_detect_info_msg">คิวอาร์โค้ดจะถูกตรวจหาอัตโนมัติบนหน้าจอ</string>
+
+    <!-- R -->
+    <string name="register">สมัครสมาชิก</string>
+    <string name="register_info_msg">กรุณากรอกอีเมลของคุณ</string>
+    <string name="register_completed_msg">ลงชื่อเข้าใช้ด้วยรหัสผ่านที่เราส่งไปยังอีเมลของคุณ.</string>
+    <string name="refuse">ปฏิเสธ</string>
+    <string name="refuse_event">ปฏิเสธเข้าร่วมอีเวนท์</string>
+    <string name="reset_password">รีเซ็ตรหัสผ่าน</string>
+    <string name="reset_password_completed_msg">เราจะส่งรหัสผ่านใหม่ไปยังอีเมลที่คุณลงทะเบียนไว้</string>
+    <string name="restart">รีสตาท</string>
+
+    <!-- S -->
+    <string name="success">สำเร็จ</string>
+    <string name="scan_qr_code">สแกนคิวอาร์โค้ด</string>
+    <string name="scan_qr_code_with_app">สแกนคิวอาร์โค้ดด้วยแอป EZ Event</string>
+    <string name="send">ส่ง</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="sign_in_to_activity">Sign in to activity</string>
+    <string name="see_all_maps">ดูแผนที่แสดงทั้งหมด ></string>
+    <string name="save">บันทึก</string>
+    <string name="see_map_title">ดูแผนที่แสดงตำแหน่ง</string>
+    <string name="see_who_risk">แสดงผลผู้ที่มีความเสี่ยง</string>
+    <string name="see_who_infected">แสดงผลผู้ที่ติดเชื้อ</string>
+    <string name="see_who_both">แสดงผลทั้งสองแบบ</string>
+
+    <!-- T -->
+    <string name="thai_digital_technology_association">สมาคมเทคโนโลยีดิจิทัลไทย</string>
+    <string name="turn_on">เปิด</string>
+    <string name="take_survey">ทำแบบสอบถาม</string>
+    <string name="covid_negative_title">ขอบคุณที่ให้ความร่วมมือ</string>
+    <string name="covid_negative_desc">ทั้งนี้หากคุณรู้สึกมีอาการที่เข้าข่ายผู้ป่วยโควิด-19\nกรุณารีบกลับมาทำการตรวจสอบสถานะใหม่อีกครั้ง\nเพื่อความปลอดภัยของบุคคลอื่น ๆ และขอให้ท่านเก็บตัวอยู่ที่บ้านงดเว้นการออกไปข้างนอก เพื่อหยุดการแพร่กระจายของเชื้อ ขอบคุณที่ให้ความร่วมมืออีกครั้ง</string>
+
+    <!-- U -->
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="username_required">กรุณากรอกชื่อผู้ใช้</string>
+    <string name="unauthorized_msg">คุณยังไม่ได้เข้าสู่ระบบ หรือ เซสชันหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง</string>
+    <string name="update_app_just_downloaded">ดาวน์โหลดการอัปเดตแล้ว</string>
+    <string name="update_app_failed">การอัปเดตแอปล้มเหลว</string>
+    <string name="update_app_success">การอัปเดตแอปสำเร็จ</string>
+    <string name="update_location_title">มาอัพเดทตำแหน่งที่ตั้งของคุณ\nเพื่อป้องกันเพื่อนๆ รอบข้างกันค่ะ</string>
+    <string name="update_location_desc">ตำแหน่งที่ตั้งปัจจุบันของคุณ</string>
+    <string name="update_location_mock">18 อาคาร ทรู ทาวเวอร์ ถนนรัชดาภิเษก แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพ 10310</string>
+    <string name="update_location_success_message">เช็คอิน สำเร็จเรียบร้อยค่ะ</string>
+
+    <!-- V -->
+    <string name="version">เวอร์ชัน</string>
+
+    <!-- W -->
+    <string name="warning">แจ้งเตือน</string>
+    <string name="welcome_message">ยินดีต้อนรับเข้าสู่\nการแจ้งข้อมูลสถานะของการติดเชื้อ\nCOVID-19เพื่อคนไทยสู้ภัย โควิด</string>
+
+    <!-- Y -->
+
+    <!-- Z -->
+</resources>

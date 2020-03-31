@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/dark_blue</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <color name="blue">#347AF0</color>
+    <color name="dark_blue">#005096</color>
+    <color name="midnight_blue">#0D1F3C</color>
+    <color name="red">#D10B31</color>
+    <color name="yellow">#FDB32A</color>
+    <color name="grey">#B5BBC9</color>
+    <color name="dark_grey">#707070</color>
+    <color name="light_grey">#CFD2D8</color>
+    <color name="peach">#FF9B70</color>
+
+    <color name="disable">@color/grey</color>
+    <color name="line">#E6E6E6</color>
+
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#0D1F3C</color>
+    <color name="text_thirdly">#485068</color>
+    <color name="text_disable">@color/grey</color>
+    <color name="text_hint">#3D4C63</color>
+    <color name="text_error">#DF5060</color>
+    <color name="text_accent">#339DFA</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <color name="background">#FFFFFF</color>
+
+    <color name="indicator_inactive">#EDF1F9</color>
+
+
+    <!-- Old -->
+    <color name="iconPrimary">#FFFFFF</color>
+    <color name="iconSecondary">#ADB7BE</color>
+    <color name="colorPrimaryLight">#86D7D0</color>
+    <color name="border">#484848</color>
+    <color name="borderActive">@color/colorPrimary</color>
+
+    <color name="tran00">#00000000</color>
+
+
+
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/text_white"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:background="@color/text_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/text_white">
+
+            <include layout="@layout/toolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/positiveCheckCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appBarLayout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            app:cardElevation="@dimen/space_10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/positiveCheckTitle"
+                    style="@style/TextView.Desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="คุณป่วยเป็นโควิด-19 เมื่อ"
+                    android:textSize="@dimen/text_headline_4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/positiveCheckDay"
+                    style="@style/TextView.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:maxWidth="@dimen/space_100dp"
+                    android:text="14"
+                    android:textSize="100sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
+                    app:layout_constraintStart_toStartOf="@+id/positiveCheckTitle"
+                    app:layout_constraintTop_toBottomOf="@+id/positiveCheckTitle" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView4"
+                    style="@style/TextTitle.Disable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/space_20dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:text="วันที่ผ่านมา"
+                    app:layout_constraintBaseline_toBaselineOf="@id/positiveCheckDay"
+                    app:layout_constraintStart_toEndOf="@id/positiveCheckDay" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView3"
+                    style="@style/TextView.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="21 มีนาคม 2563 เมื่อ 22:30 น."
+                    android:textSize="@dimen/text_headline_5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/positiveCheckDay" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSafeLocation"
+            android:layout_below="@id/positiveCheckCardView"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutHealthGood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingTop="@dimen/space_12dp"
+                android:paddingBottom="@dimen/space_12dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatToggleButton
+                    android:id="@+id/btnHealthGood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_covid_check_good"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextView.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_12dp"
+                    android:gravity="center"
+                    android:text="หายเป็นปกติแล้ว"
+                    android:textSize="@dimen/text_headline_5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingTop="@dimen/space_12dp"
+                android:paddingBottom="@dimen/space_12dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatToggleButton
+                    android:id="@+id/btnHealthBad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_covid_check_bad"
+                    android:gravity="center"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextView.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_12dp"
+                    android:gravity="center"
+                    android:text="หายเป็นปกติแล้ว"
+                    android:textSize="@dimen/text_headline_5" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSafeLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/space_32dp"
+            android:layout_marginEnd="@dimen/space_32dp"
+            android:layout_marginBottom="@dimen/space_32dp"
+            android:layout_marginTop="@dimen/space_12dp"
+            android:background="@drawable/btn_gray_gradient"
+            android:fontFamily="@font/true_bold"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_headline_6" />
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

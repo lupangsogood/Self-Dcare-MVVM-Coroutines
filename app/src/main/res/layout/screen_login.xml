@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.45" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/banner_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_vertical_50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/im_banner_women_with_mobile" />
+
+        <RelativeLayout
+            android:id="@+id/on_boarding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/shape_on_boarding_layout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline_vertical_45">
+
+            <TextView
+                android:id="@+id/for_secure_label"
+                style="@style/TextHeadLine5.Secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/space_32dp"
+                android:layout_marginTop="@dimen/space_24dp"
+                android:layout_marginEnd="@dimen/space_32dp"
+                android:gravity="center"
+                android:text="@string/for_secure" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/telephone_number_input"
+                style="@style/TextField.Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/for_secure_label"
+                android:layout_marginStart="@dimen/space_32dp"
+                android:layout_marginTop="@dimen/space_16dp"
+                android:layout_marginEnd="@dimen/space_32dp" />
+
+            <TextView
+                android:id="@+id/login_description_label"
+                style="@style/TextTitle.Thirdly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/telephone_number_input"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/space_32dp"
+                android:layout_marginTop="@dimen/space_16dp"
+                android:layout_marginEnd="@dimen/space_32dp"
+                android:gravity="center"
+                android:text="@string/login_desc" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/next_button"
+                android:layout_width="@dimen/space_72dp"
+                android:layout_height="@dimen/space_72dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/space_32dp"
+                android:background="@drawable/bg_btn_primary_circle"
+                android:paddingTop="@dimen/space_8dp"
+                android:src="@drawable/ic_next" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

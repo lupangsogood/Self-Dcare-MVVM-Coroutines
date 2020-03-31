@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialog.TitleTextStyle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/AlertDialog.BodyTextStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialog.PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialog.NegativeButtonStyle</item>
+        <item name="android:dialogCornerRadius">@dimen/space_10dp</item>
+    </style>
+</resources>

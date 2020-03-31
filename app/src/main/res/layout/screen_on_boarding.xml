@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.OnBoardingScreen">
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/guideline_center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/space_64dp"
+            android:layout_centerVertical="true" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/banner_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/guideline_center_vertical"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/im_banner_boys" />
+
+        <RelativeLayout
+            android:id="@+id/on_boarding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/guideline_center_vertical"
+            android:background="@drawable/shape_on_boarding_layout">
+
+            <com.freewillsolutions.True.selfdcare.ui.component.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/space_8dp"
+                android:visibility="gone"
+                app:activeIcon="@drawable/shape_circle_indicator_active"
+                app:count="4"
+                app:inActiveIcon="@drawable/shape_circle_indicator_inactive" />
+
+            <TextView
+                android:id="@+id/on_boarding_label"
+                style="@style/TextHeadLine5.Secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/indicator"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/space_32dp"
+                android:layout_marginTop="@dimen/space_24dp"
+                android:layout_marginEnd="@dimen/space_32dp"
+                android:gravity="center"
+                android:text="@string/on_boarding_title" />
+
+            <TextView
+                android:id="@+id/welcome_label"
+                style="@style/TextTitle.Thirdly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/on_boarding_label"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/space_32dp"
+                android:layout_marginTop="@dimen/space_16dp"
+                android:layout_marginEnd="@dimen/space_32dp"
+                android:gravity="center"
+                android:text="@string/welcome_message" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/get_started_button"
+                style="@style/Button.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/space_32dp"
+                android:text="@string/get_started" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

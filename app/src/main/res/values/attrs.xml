@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="count" format="integer" />
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="activeIcon" format="reference" />
+        <attr name="inActiveIcon" format="reference" />
+        <attr name="count" />
+        <attr name="position" format="integer" />
+    </declare-styleable>
+</resources>
